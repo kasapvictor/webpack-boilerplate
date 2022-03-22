@@ -23,7 +23,7 @@ module.exports = {
 		hot: true,
 		port: 9000,
 		static: './dist',
-		watchFiles: ['./src/**/*', './*.html', './*.pug',],
+		watchFiles: ['./src/**/*',],
 	},
 	module: {
 		rules: [
@@ -90,7 +90,7 @@ module.exports = {
 		}),
 		new HtmlWebpackPlugin({
 			favicon: "./src/images/256x256.png",
-			template: './index.pug',
+			template: './srs/index.pug',
 			inject: 'body',
 		})
 	],
