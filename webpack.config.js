@@ -90,7 +90,7 @@ module.exports = {
 		}),
 		new HtmlWebpackPlugin({
 			favicon: "./src/images/256x256.png",
-			template: './srs/index.pug',
+			template: './src/index.pug',
 			inject: 'body',
 		})
 	],
